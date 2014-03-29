@@ -9,12 +9,13 @@ A plugin to allow vagrant to recognize instances of OpenWrt
 Currently:
 
  * halt
- * change_hostname
- * configure_networks
+ * change_hostname (stub)
+ * configure_networks (stub)
 
 == INSTALL:
 
 * vagrant plugin install vagrant-guest-openwrt
+
 
 == LICENSE:
 

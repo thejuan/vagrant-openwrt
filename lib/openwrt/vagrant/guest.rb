@@ -1,10 +1,10 @@
 require "vagrant"
 
 module VagrantPlugins
-  module Guestopenwrt
+  module GuestOpenWrt
     class Guest < Vagrant.plugin("2", :guest)
       def detect?(machine)
-      	machine.communicate.test('uname -s | grep openwrt')
+      	machine.communicate.test('opkg -version')
       end
     end
   end

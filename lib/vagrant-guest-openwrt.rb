@@ -1,1 +1,1 @@
-require_relative 'qnx/vagrant'
+require_relative 'openwrt/vagrant'

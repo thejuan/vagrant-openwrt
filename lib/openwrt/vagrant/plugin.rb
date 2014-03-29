@@ -4,7 +4,7 @@ module VagrantPlugins
       name "OpenWrt Guest."
       description "OpenWrt support."
 
-      guest("openwrt")  do
+      guest("openwrt", "linux")  do
         require File.expand_path("../guest", __FILE__)
         Guest
       end
