@@ -1,0 +1,7 @@
+lib/vagrant-guest-openwrt.rb
+lib/openwrt/vagrant.rb
+lib/openwrt/vagrant/plugin.rb
+lib/openwrt/vagrant/guest.rb
+lib/openwrt/vagrant/cap/halt.rb
+lib/openwrt/vagrant/cap/change_host_name.rb
+lib/openwrt/vagrant/cap/configure_networks.rb
