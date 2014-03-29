@@ -3,7 +3,13 @@ module VagrantPlugins
     module Cap
       class ChangeHostName
         def self.change_host_name(machine, name)
-          machine.ui.warn("hostname change not implemented in OpenWrt guest")
+          begin
+            machine.communicate.execute("sudo uci set system.@system[0].hostname=\"#{name}\"")
+            machine.communicate.execute("sudo uci commit")
+          rescue IOError
+            # Ignore, this probably means connection closed because it
+            # shut down.
+          end
         end
       end
     end
