@@ -10,7 +10,7 @@ module VagrantPlugins
 	        #  elsif network[:type].to_sym == :dhcp
 	        #    machine.communicate.execute("su -c - \"dhcp.client -i wm#{network[:interface]}\"")
 	        #  end
-	        end
+	        #end
 	      end
       end
     end

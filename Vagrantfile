@@ -11,7 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.private_key_path = "vagrant.private.key"
   config.vm.synced_folder ".", "/vagrant", :disabled => true # no guest additions of vmware tools. No sharing
   
-  #Testing the plugin
+  #Testing the plugin, can be removed
   config.vm.hostname="OpenWrtAA"
   
   #You can configure networks here for the Virtuliser, however the plugin has not implemented it for OpenWRT yet.

@@ -6,3 +6,7 @@
 
 * Added Hostname Capability
 
+=== 0.0.2 / 2014-03-29
+
+* Made Configure_Networks not barf
+
