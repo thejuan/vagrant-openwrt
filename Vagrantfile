@@ -5,7 +5,7 @@
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  config.vm.box = "adam/openwrt-aa"
+  config.vm.box = "Adam/OpenWrt-AA"
   config.vm.guest = "openwrt"
   config.ssh.shell = "ash" # bash is the default, openwrt uses ash
   config.ssh.private_key_path = "vagrant.private.key"
