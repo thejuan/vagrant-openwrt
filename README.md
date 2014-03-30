@@ -9,19 +9,20 @@ A plugin to allow vagrant to recognize instances of OpenWrt
 Currently:
 
  * halt
- * change_hostname (stub)
+ * change_hostname
  * configure_networks (stub)
 
-== INSTALL:
+### INSTALL:
 
 * vagrant plugin install vagrant-guest-openwrt
 
 
-== LICENSE:
+### LICENSE:
 
 (The MIT License)
 
 Copyright (c) 2014 Adam Mils
+
 Inspired by https://github.com/damphyr/vagrant-qnx/tree/master/vagrant-guest-qnx
 
 
